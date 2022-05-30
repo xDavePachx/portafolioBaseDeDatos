@@ -11,7 +11,7 @@
     <body>
       <center>
       <div >
-        <h1>Tareas ex-aula</h1>
+        <h1>Tareas ex-aula computo 2</h1>
         <h3>Desarrollo de plan de seguridad mediante normas ISO27001 y ISO27002</h3>
         <img alt="plan de seguridad" width="500"  src="@/assets/m1.png" />
         <img alt="plan de seguridad" width="500"  src="@/assets/m2.png" />
@@ -28,7 +28,21 @@
         <img alt="plan de seguridad" width="500"  src="@/assets/m13.png" />
         <img alt="plan de seguridad" width="500"  src="@/assets/m14.png" />
         <img alt="plan de seguridad" width="500"  src="@/assets/m15.png" />
+        
+      <h1>Tareas ex-aula computo 3</h1>
+      <img alt="plan de seguridad" width="500"  src="@/assets/m16.png" />
+      <img alt="plan de seguridad" width="500"  src="@/assets/m17.png" />
+      <img alt="plan de seguridad" width="500"  src="@/assets/m18.png" />
+      <img alt="plan de seguridad" width="500"  src="@/assets/m19.png" />
+      <img alt="plan de seguridad" width="500"  src="@/assets/m20.png" />
+      <img alt="plan de seguridad" width="500"  src="@/assets/m21.png" />
+      <img alt="plan de seguridad" width="500"  src="@/assets/m22.png" />
+      <img alt="plan de seguridad" width="500"  src="@/assets/m23.png" />
+      <img alt="plan de seguridad" width="500"  src="@/assets/m25.png" />
+      <img alt="plan de seguridad" width="500"  src="@/assets/m26.png" />
+
       </div>
+
       </center>
     </body>
     </html>

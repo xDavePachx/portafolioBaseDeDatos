@@ -10,7 +10,7 @@
       </head>
       <body>
         <div class="evidencias">
-          <h1>Resumen de contenidos</h1>
+          <h1>Resumen de contenidos computo 2</h1>
           <h4>1.0.0 Generalidades de la seguridad de los datos</h4>
           <p>
             hablar sobre la seguridad de los datos se refiere a las diversas
@@ -338,7 +338,241 @@
             demos el tiempo necesario para esclarecer dudas y poder estar seguro
             cuando algo se hace de cierta manera y cual es la correcta
           </p>
-          <p></p>
+
+          <h1 align="center">Resumen de contenidos computo 3</h1>
+
+          <h4>Almacen de datos</h4>
+          <h5>Conceptualización de almacén de datos</h5>
+          <p>
+            Es un tipo de sistema de gestión de datos que está diseñado para
+            habilitar y respaldar las actividades de inteligencia empresarial
+            BI, especialmente las analíticas. Los almacenes de datos están
+            destinados únicamente a realizar consultas y análisis y, a menudo,
+            contienen grandes cantidades de datos históricos. Los datos dentro
+            de un almacén de datos generalmente se derivan de una amplia gama de
+            fuentes, como archivos de registro de aplicaciones y aplicaciones de
+            transacciones.
+          </p>
+
+          <p>
+            Un almacén de datos centraliza y consolida grandes cantidades de
+            datos de múltiples fuentes. Sus capacidades analíticas permiten a
+            las organizaciones obtener valiosos conocimientos comerciales a
+            partir de sus datos para mejorar la toma de decisiones. Con el
+            tiempo, crea un registro histórico que puede ser invaluable para los
+            científicos de datos y los analistas comerciales. Debido a estas
+            capacidades, un almacén de datos puede considerarse la "única fuente
+            de información" de una organización.
+          </p>
+          <h5>¿Cómo funciona Data Warehouse?</h5>
+          <ol>
+            <li>
+              Funciona como un depósito central donde la información llega de
+              una o más fuentes de datos. Los datos fluyen hacia un almacén de
+              datos desde el sistema transaccional y otras bases de datos
+              relacionales los datos de estas pueden ser:
+            </li>
+            <li>Estructurado</li>
+            <li>Semiestructurada</li>
+            <li>Datos no estructurados</li>
+          </ol>
+
+          <h5>¿Cómo funciona Data Warehouse?</h5>
+          <p>
+            Los datos se procesan, transforman e ingieren para que los usuarios
+            puedan acceder a los datos procesados en el almacén de datos a
+            través de herramientas de inteligencia empresarial, clientes SQL y
+            hojas de cálculo. Un almacén de datos fusiona información procedente
+            de diferentes fuentes en una base de datos completa.
+          </p>
+          <p>
+            Al fusionar toda esta información en un solo lugar, una organización
+            puede analizar a sus clientes de manera más integral. Esto ayuda a
+            garantizar que se ha tenido en cuenta toda la información
+            disponible. El almacenamiento de datos hace posible la minería de
+            datos. La minería de datos busca patrones en los datos que puedan
+            generar mayores ventas y ganancias.
+          </p>
+
+          <h3>Procesos ETL</h3>
+          <p>
+            ETL es un proceso que extrae los datos de diferentes sistemas de
+            origen, luego los transforma como aplicar cálculos, concatenaciones,
+            etc. y finalmente carga los datos en el sistema de almacenamiento de
+            datos. La forma completa de ETL es Extraer, Transformar y Cargar
+            Extract-Transform-Load.
+          </p>
+          <p>
+            No es tan simple pensar que la creación de un almacén de datos es
+            simplemente extraer datos de múltiples fuentes y cargarlos en la
+            base de datos de un almacén de datos. Esto está lejos de la verdad y
+            requiere un proceso ETL complejo. El proceso ETL requiere
+            aportaciones activas de varias partes interesadas, incluidos
+            desarrolladores, analistas, probadores, altos ejecutivos y es un
+            desafío técnico.
+          </p>
+          <p>
+            ETL es una actividad recurrente diaria, semanal, mensual de un
+            sistema de almacenamiento de datos y debe ser ágil, automatizada y
+            bien documentada.
+          </p>
+          <h5>Por que son necesarias en una empresa?</h5>
+          <ol>
+            <li>
+              Permitir la verificación de las reglas de transformación,
+              agregación y cálculo de datos.
+            </li>
+            <li>
+              El proceso ETL permite la comparación de datos de muestra entre el
+              sistema de origen y el de destino.
+            </li>
+            <li>
+              El proceso ETL puede realizar transformaciones complejas y
+              requiere un área adicional para almacenar los datos.
+            </li>
+            <li>
+              ETL ayuda a migrar datos a un almacén de datos. Convierta a varios
+              formatos y tipos para adherirse a un sistema consistente.
+            </li>
+            <li>
+              ETL es un proceso predefinido para acceder y manipular datos de
+              origen en la base de datos de destino.
+            </li>
+            <li>
+              ETL en el almacén de datos ofrece un contexto histórico profundo
+              para el negocio.
+            </li>
+          </ol>
+
+          <h3>Cubos OLAP</h3>
+
+          <p>
+            El procesamiento analítico en línea OLAP es una categoría de
+            software que permite a los usuarios analizar información de
+            múltiples sistemas de bases de datos al mismo tiempo. Es una
+            tecnología que permite a los analistas extraer y ver datos
+            comerciales desde diferentes puntos de vista. Los analistas con
+            frecuencia necesitan agrupar, agregar y unir datos.
+          </p>
+          <p>
+            Estas operaciones en bases de datos relacionales requieren muchos
+            recursos. Con OLAP, los datos se pueden calcular y agregar
+            previamente, lo que agiliza el análisis. Las bases de datos OLAP se
+            dividen en uno o más cubos. Los cubos están diseñados de tal manera
+            que la creación y visualización de informes resulten fáciles. OLAP
+            significa procesamiento analítico en línea.
+          </p>
+          <h5>Los cubos OLAP constan de:</h5>
+          <p>
+            El Cubo OLAP consta de hechos numéricos llamados medidas que se
+            clasifican por dimensiones. El Cubo OLAP también se llama hipercubo
+            .
+          </p>
+          <p>
+            Por lo general, las operaciones y el análisis de datos se realizan
+            utilizando una hoja de cálculo simple, donde los valores de los
+            datos se organizan en formato de fila y columna. Esto es ideal para
+            datos bidimensionales. Sin embargo, OLAP contiene datos
+            multidimensionales, con datos que generalmente se obtienen de una
+            fuente diferente y no relacionada. Usar una hoja de cálculo no es
+            una opción óptima. El cubo puede almacenar y analizar datos
+            multidimensionales de manera lógica y ordenada.
+          </p>
+
+          <h5>Los cubos OLAP funcionan de la siguiente manera:</h5>
+          <p>
+            Un almacén de datos extraería información de múltiples fuentes y
+            formatos de datos, como archivos de texto, hojas de Excel, archivos
+            multimedia, etc. Los datos extraídos se limpian y transforman. Los
+            datos se cargan en un servidor OLAP o cubo OLAP donde la información
+            se calcula previamente para su posterior análisis.
+          </p>
+          <h3>Introduccion a la mineria de datos</h3>
+          <p>
+            En el mundo empresarial, los minoristas y el comercio electrónico
+            han generado grandes bases de datos sobre transacciones comerciales.
+            También se han generado una gran cantidad de datos científicos en
+            varios campos. La World Wide Web proporciona un ejemplo con miles de
+            millones de páginas web que consisten en información textual y
+            multimedia que son utilizadas por millones de personas. El análisis
+            de grandes cantidades de datos que se pueden comprender y utilizar
+            de manera eficiente sigue siendo un problema desafiante. La minería
+            de datos aborda este problema proporcionando técnicas y software
+            para automatizar el análisis y la exploración de conjuntos de datos
+            grandes y complejos. La investigación sobre minería de datos se
+            lleva a cabo en una amplia variedad de campos, que incluyen
+            estadísticas, informática, aprendizaje automático, gestión de bases
+            de datos y visualización de datos, por nombrar algunos.
+          </p>
+
+          <h5>Mineria de los datos</h5>
+          <p>
+            La minería de datos , también conocida popularmente como
+            descubrimiento de conocimientos en bases de datos KDD, se refiere a
+            la extracción no trivial de información implícita, previamente
+            desconocida y potencialmente útil de datos en bases de datos. Si
+            bien la minería de datos y el descubrimiento de conocimientos en
+            bases de datos o KDD se tratan con frecuencia como sinónimos, la
+            minería de datos es en realidad parte del proceso de descubrimiento
+            de conocimientos.
+          </p>
+          <p>
+            La minería de datos se refiere a un conjunto de métodos aplicables a
+            bases de datos grandes y complejas para eliminar la aleatoriedad y
+            descubrir el patrón oculto. Los métodos de minería de datos casi
+            siempre son computacionalmente intensivos. La minería de datos se
+            trata de herramientas, metodologías y teorías para revelar patrones
+            en los datos, que es un paso fundamental en el descubrimiento del
+            conocimiento.
+          </p>
+          <p>
+            Utilizamos técnicas de minería de datos para un largo proceso de
+            investigación y desarrollo de productos. Como esta evolución se
+            inició cuando los datos comerciales se almacenaron por primera vez
+            en las computadoras. Además, permite a los usuarios navegar por sus
+            datos en tiempo real. La minería de datos en la comunidad
+            empresarial está respaldada por tres tecnologías que ahora están
+            maduras:
+          </p>
+          <ol>
+            <li>Recopilación masiva de datos</li>
+            <li>Potentes ordenadores multiprocesador</li>
+            <li>Algoritmos de minería de datos</li>
+          </ol>
+          <h5>Herramientas para minar datos</h5>
+          <p>
+            La minería de datos se refiere al proceso de "excavar" es decir,
+            analizar con computadoras grandes volúmenes de datos para
+            identificar anomalías, patrones y correlaciones interesantes. Este
+            tipo de análisis tiene sus raíces en técnicas estadísticas como el
+            teorema de Bayes que inicialmente se calcularon a mano. Sin embargo,
+            la minería de datos actual es cada vez más sofisticada y refleja una
+            combinación de prácticas de estadística, ciencia de datos , teoría
+            de bases de datos, inteligencia artificial y aprendizaje automático
+            .
+          </p>
+          <p>
+            Con las herramientas de minería de datos , las organizaciones de
+            cualquier tamaño pueden extraer información valiosa de sus conjuntos
+            de datos, incluida información sobre consumidores, costos y
+            tendencias futuras. Este proceso puede emplearse para a responder
+            preguntas comerciales que tradicionalmente tomaban demasiado tiempo
+            para abordar y b tomar decisiones basadas en el conocimiento basadas
+            en los mejores datos disponibles.
+          </p>
+
+          <h5>La mineria de datos en las empresas y su marketing</h5>
+          <p>
+            Las herramientas de minería de datos pueden a obtener más
+            información sobre las preferencias del consumidor, recopilar datos
+            demográficos, de género, ubicación y otros datos de perfil, y
+            aprovechar toda esa información para optimizar los esfuerzos de
+            marketing y ventas. Las correlaciones en el comportamiento de
+            compra, por ejemplo, se pueden utilizar para crear personas
+            compradoras más sofisticadas que, a su vez, pueden ayudarlo a crear
+            mensajes más específicos.
+          </p>
+          
         </div>
       </body>
     </html>
